@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="icon" href="images\shopping cart image.png">
+    <script src="mycart.js" assync defer></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img{
+            width: 7em;
+            height: 7em;
+            
+        }
+
+        th, td{
+            border: 3px solid rgb(179, 179, 167);
+        }
+
+        th{
+            background-color: darkmagenta;
+            color: white;
+            padding: 15px;
+        }
+
+        td{
+            text-align: center;
+        }
+
+        table{
+            /* border: 3px solid blueviolet; */
+            border-collapse: collapse;
+            width: 70%;
+            margin-left: 10px;
+        }
+        button{
+            background-color: red;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-family: sans-serif;
+        }
+
+        input{
+            width: 3em;
+        }
+
+        .total{
+            width: 70%;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 3px solid rgb(179, 179, 167);
+            margin-left: 10px;
+        }
+
+        .buybutton{
+            width: 10em;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 150%;
+            font-family: sans-serif;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        h3{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+       <!-- <div class="cartcontainer"> -->
+          <!-- <div class="innercont"> -->
+            <table>
+                <!-- <tr>
+                    <th>PRODUCT IMAGE</th>
+                    <th>PRODUCT NAME</th>
+                    <th>PRODUCT PRICE</th>
+                    <th>QUANTITY</th>
+                    <th>ACTION</th>
+                </tr> -->
+                <!-- <tr class="row">
+                <button class="remove_button delete">Remove</button>
+            </tr> -->
+            </table> 
+          <!-- </div> -->
+       <!-- </div> -->
+
+       <div class="total">
+        <h1>Total Price:<span>NGN 0</span></h1>
+        <h3>Total Quantity:<span>0</span></h3>
+        <button class="buybutton">Buy Now</button>
+       </div>
+</body>
+</html>
