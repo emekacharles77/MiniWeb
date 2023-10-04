@@ -11,7 +11,7 @@ let search2=document.querySelector(".searchInput2");
 let select=document.querySelectorAll("select")[0];
 let select2=document.querySelectorAll("select")[1]
 let toggle=document.querySelector(".dropdown")
-let mobile=document.querySelector(".mobile_div")
+let mobile=document.querySelector(".mobile_dropdown")
 const popup=document.querySelector('.popup')
 const button=document.querySelector('.btn')
 console.log(button)
