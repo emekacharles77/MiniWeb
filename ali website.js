@@ -14,7 +14,7 @@ let toggle=document.querySelector(".dropdown")
 let mobile=document.querySelector(".mobile_dropdown")
 const popup=document.querySelector('.popup')
 const button=document.querySelector('.btn')
-console.log(button)
+// console.log(button)
 var counter=0;
 
 buttonright.addEventListener("click", slideright);

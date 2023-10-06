@@ -36,21 +36,23 @@ table.innerHTML=`
                 const individualrow=table.querySelectorAll('.row')
                 individualrow.forEach((row, i)=>{
                     const input=row.querySelector('input')
+                    
                     input.addEventListener("change", ()=>{
                         var totalitems=0
                         if(input.value<1){
                             input.value=1
                         }
-                        var all=input.parentElement.parentElement.parentElement
+                        var all=input.parentElement.parentElement.parentElement;
                         var allinputs=all.querySelectorAll('input')
                         allinputs.forEach((item, i)=>{
                             totalitems=totalitems+Number(item.value)
                         })
                         total.textContent=totalitems
                         updatePrice()
-                        console.log(all)
                     })
                 })
+
+                
 
 
                 const row=document.querySelectorAll(".row")
